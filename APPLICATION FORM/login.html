@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <a href="./signup.html">
+                <button >Sign Up</button>
+            </a>     
+        </div>
+        <div class="main">
+            <div class="text">
+                <h3>Design with us</h3>
+                <h6>Access to thousands of design <br>resources and templates</h6>                
+            </div>
+            <div class="form">
+                <form id="signupForm">
+                    <h1>Login now </h1>
+                    <div class="top-bars">
+                        <div class="form-bars">
+                            <label for="first-name">First name</label>
+                            <input
+                            id="first-name"
+                            name="first-name"
+                             />
+                        </div>
+                        <div class="form-bars">
+                            <label for="last-name">Last name</label>
+                            <input
+                            id="last-name"
+                            name="last-name"
+                             />
+                        </div>
+                    </div>
+                    <div class="form-bars">
+                        <label for="email">Email address</label>
+                        <input 
+                        type="email"
+                        id="email"
+                        name="email"
+                         />
+                    </div>
+                    <div class="form-bars">
+                        <label for="contact">Phone number</label>
+                        <input 
+                        type="tel"
+                        id="contact"
+                        name="contact"
+                         />
+                    </div>
+                    <div class="form-bars">
+                        <label for="pass">Password</label>
+                        <input 
+                        type="password"
+                        id="pass"
+                        name="pass"                        
+                         />
+                    </div>
+                <p1>use 8 or more characters with a mix of letters, numbers & symbols</p1>
+                <div class="form-text">
+                    <div class="checkbox">
+                        <input type="checkbox">
+                     <p>By creating an account I agree to our <span>Terms of use</span> and <span>Privacy Policy</span></p>  
+                    </div> 
+                    <div class="checkbox">
+                        <input type="checkbox">
+                        <p>By creating an account, I am also consenting to receive SMS <br> messages and emails, including product new feature updates, <br>events, and marketing promotions.</p>     
+                    </div>
+                    <footer>
+                        <div class="buttoncontainer">
+                           <button style="cursor: pointer;" type="submit">Login</button>
+                       </div>
+                       <p>Doesn't have an account? <a href="./signup.html">Sign up</a></p>
+                    </footer>
+                </div>                
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div id="error-message" style="color: red;"></div>
+
+    <script src="index.js"></script>
+</body>
+</html>
